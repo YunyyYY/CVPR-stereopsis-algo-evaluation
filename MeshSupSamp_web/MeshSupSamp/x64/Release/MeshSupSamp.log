@@ -1,0 +1,23 @@
+﻿Build started 12-06-2014 13:30:04.
+     1>Project "D:\Work_Meta\robotStereo\Matlab\SurfEval\MeshSupSamp\MeshSupSamp\MeshSupSamp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IC:\Work\ImmCVC\ImmCVC /I"C:\Program Files\MATLAB\R2013a\extern\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _WINDLL /D _UNICODE /D UNICODE /UMATLAB_MEX_FILE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt MeshSupSamp.cpp
+         MeshSupSamp.cpp
+     1>MeshSupSamp.cpp(112): warning C4244: 'argument' : conversion from 'double' to 'unsigned __int64', possible loss of data
+     1>MeshSupSamp.cpp(114): warning C4244: 'argument' : conversion from 'double' to 'unsigned __int64', possible loss of data
+     1>MeshSupSamp.cpp(116): warning C4244: 'argument' : conversion from 'double' to 'unsigned __int64', possible loss of data
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(D:\Work_Meta\robotStereo\Matlab\SurfEval\MeshSupSamp\x64\Release\MeshSupSamp.dll) does not match the Linker's OutputFile property value (D:\Work_Meta\robotStereo\Matlab\SurfEval\MeshSupSamp\x64\Release\MeshSupSamp.mexw64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1138,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.mexw64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Work_Meta\robotStereo\Matlab\SurfEval\MeshSupSamp\x64\Release\MeshSupSamp.mexw64" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\MATLAB\R2013a\extern\lib\win64\microsoft" libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"MeshSupSamp.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Work_Meta\robotStereo\Matlab\SurfEval\MeshSupSamp\x64\Release\MeshSupSamp.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Work_Meta\robotStereo\Matlab\SurfEval\MeshSupSamp\x64\Release\MeshSupSamp.lib" /MACHINE:X64 /DLL x64\Release\MeshSupSamp.obj
+            Creating library D:\Work_Meta\robotStereo\Matlab\SurfEval\MeshSupSamp\x64\Release\MeshSupSamp.lib and object D:\Work_Meta\robotStereo\Matlab\SurfEval\MeshSupSamp\x64\Release\MeshSupSamp.exp
+     1>MeshSupSamp.exp : warning LNK4070: /OUT:MeshSupSamp.dll directive in .EXP differs from output filename 'D:\Work_Meta\robotStereo\Matlab\SurfEval\MeshSupSamp\x64\Release\MeshSupSamp.mexw64'; ignoring directive
+         Generating code
+         Finished generating code
+     1>MeshSupSamp.exp : warning LNK4070: /OUT:MeshSupSamp.dll directive in .EXP differs from output filename 'D:\Work_Meta\robotStereo\Matlab\SurfEval\MeshSupSamp\x64\Release\MeshSupSamp.mexw64'; ignoring directive
+         MeshSupSamp.vcxproj -> D:\Work_Meta\robotStereo\Matlab\SurfEval\MeshSupSamp\x64\Release\MeshSupSamp.dll
+     1>Done Building Project "D:\Work_Meta\robotStereo\Matlab\SurfEval\MeshSupSamp\MeshSupSamp\MeshSupSamp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.32
