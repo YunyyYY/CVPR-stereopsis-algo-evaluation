@@ -148,16 +148,16 @@ Sample file structure for `ply` file is as follow:
 A sample header can be:
 
 ```
-ply													{start of header}
+ply								{start of header}
 format ascii 1.0
-element vertex 2448349			{states data list representation and specifies total number}
-property float x						{(x, y, z) is coordinate}
-property float y						{each represents one property of each element (one line)}
+element vertex 2448349		{states data list representation and specifies total number}
+property float x				{(x, y, z) is coordinate}
+property float y				{each represents one property of each element (one line)}
 property float z
-property uchar red					{(r, g, b) is color data}
+property uchar red			{(r, g, b) is color data}
 property uchar green
 property uchar blue
-property float nx						{(nx, ny, nz) is vertex normal vector}
+property float nx				{(nx, ny, nz) is vertex normal vector}
 property float ny
 property float nz
 end_header
